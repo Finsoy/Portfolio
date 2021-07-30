@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online-zoo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="style/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="online-zoo">Online Zoo</h1>
+      <a class="header__logo-link" href="../about/about.html">
+        <img
+          class="header__logo"
+          src="../../assets/icons/header-logo.svg"
+          alt="logo-icon"
+        />
+      </a>
+
+      <div class="burger-icon">
+        <span></span>
+      </div>
+      <div class="header__wrapper">
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li>
+              <a href="../about/about.html">About</a>
+            </li>
+            <li><a href="../map/map.html">Map</a></li>
+            <li>
+              <a href="../zoos/panda/panda.html">Zoos</a>
+            </li>
+            <li class="active">
+              <a href="#">Contact us</a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.figma.com/file/74wXlorl9mZQP0uhqDg83j/Online-Zoo"
+                >Design</a
+              >
+            </li>
+            <li>
+              <a class="header__profile" href="#">Profile</a>
+            </li>
+          </ul>
+        </nav>
+        <img
+          class="header__user-icon"
+          src="../../assets/icons/header-user.svg"
+          alt="user-icon"
+        />
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <main class="oops">
+      <div class="container">
+        <img
+          class="error__404"
+          src="../../assets/images/404/404.png"
+          alt="404"
+        />
+        <section class="oops__error">
+          <h2 class="error__title">Oops... you seem to be lost</h2>
+          <h2 class="error__text">
+            Just don't be discouraged, but there is no such page :( <br />
+            We can offer you to watch a video with cute pandas or return to the
+            main page
+          </h2>
+          <a href="../about/about.html">
+            <button class="error__button">Back to main page</button>
+          </a>
+        </section>
+
+        <div class="oops__video">
+          <iframe
+            width="900"
+            height="500"
+            src="https://www.youtube.com/embed/wPTN0Wfgjg0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <div class="video__text">
+            You can write to support and we will try to solve your problem,
+            <a href="#" class="video__link">click here to go to support.</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <div class="main__logo">
+              <a href="#main">
+                <img
+                  src="../../assets/images/footer/footer-logo.png"
+                  alt="main-logo"
+                />
+              </a>
+            </div>
+            <div class="logo__inner">
+              <div class="yem__logo" title="Yem Digital">
+                <img
+                  src="../../assets/images/footer/yem_digital.png"
+                  alt="rss-logo"
+                />
+              </div>
+              <span class="logo__separat">x</span>
+              <div class="rss__logo" title="Rolling Scopes School">
+                <img
+                  src="../../assets/images/footer/rs_school_js.png"
+                  alt="rss-logo"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="footer__inner">
+            <nav class="footer__navigation">
+              <div class="nav__title">Navigation</div>
+              <ul>
+                <li class="nav__item">
+                  <a href="../about/about.html#main">Watch online</a>
+                </li>
+                <li class="nav__item">
+                  <a href="../about/about.html#how-works">How it works</a>
+                </li>
+                <li class="nav__item">
+                  <a href="../about/about.html#pets">Famous pets </a>
+                </li>
+                <li class="nav__item">
+                  <a href="../about/about.html#pay-feed">Pay & feed </a>
+                </li>
+                <li class="nav__item">
+                  <a href="../about/about.html#reviews">Testimonials</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#zoogeography">Zoogeography</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__support">
+              <div class="support__title">Support of volunteers</div>
+              <div class="support__text">
+                You can thank the volunteers for their work. For example, caring
+                for animals and sincere love for them.
+              </div>
+              <button class="support__btn">Donate for volunteers</button>
+              <nav class="support__social">
+                <ul>
+                  <li class="social__item">
+                    <a href="https://www.instagram.com/">Instagram</a>
+                  </li>
+                  <li class="social__item">
+                    <a href="https://www.facebook.com/">Facebook</a>
+                  </li>
+                  <li class="social__item">
+                    <a href="https://www.twitter.com/">Twitter</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <footer class="footer__copyright">
+          <div class="copyright">
+            Copyright ©RSSchool and ©Yem Digital 2020 - 2021
+          </div>
+          <div class="designed">Designed by Vladislav Chernov</div>
+        </footer>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="main.js"></script>
+  </body>
+</html>

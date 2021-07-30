@@ -8,6 +8,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="english-for-kids" />
+      </map>
+    </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
@@ -35,6 +40,14 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="match-match-game" />
+                    <option name="lastUsedInstant" value="1627662311" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="english-for-kids" />
+                    <option name="lastUsedInstant" value="1627662063" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="async-race" />
                     <option name="lastUsedInstant" value="1627660834" />
@@ -97,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627661369204</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add english-for-kids branch">
+      <created>1627662181520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627662181520</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add match-match-game branch">
+      <created>1627662366909</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627662366909</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +146,8 @@
     <MESSAGE value="feat: add all branches" />
     <MESSAGE value="feat: add efk-english-for-kids-admin-panel branch" />
     <MESSAGE value="feat: add files" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add files" />
+    <MESSAGE value="feat: add english-for-kids branch" />
+    <MESSAGE value="feat: add match-match-game branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add match-match-game branch" />
   </component>
 </project>

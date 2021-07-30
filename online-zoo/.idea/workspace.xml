@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d0957cd-3166-4c84-9b6e-8510eb2e68f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pages/about/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/style/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/style/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/style/scss/style.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="online-zoo" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1qOt818cWb0PaWNoP4MPAmGHaet" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d0957cd-3166-4c84-9b6e-8510eb2e68f3" name="Default Changelist" comment="" />
+      <created>1616962304246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616962304246</updated>
+      <workItem from="1616962306841" duration="34000" />
+      <workItem from="1616962356429" duration="402000" />
+      <workItem from="1617016164671" duration="2716000" />
+      <workItem from="1617019373725" duration="209000" />
+      <workItem from="1617019604609" duration="1330000" />
+      <workItem from="1617024111551" duration="9367000" />
+      <workItem from="1617033627079" duration="1253000" />
+      <workItem from="1617035429448" duration="45000" />
+      <workItem from="1617035598625" duration="4046000" />
+      <workItem from="1617046382247" duration="351000" />
+      <workItem from="1617117589845" duration="9181000" />
+      <workItem from="1617133992264" duration="321000" />
+      <workItem from="1617177785232" duration="309000" />
+      <workItem from="1617703697371" duration="30000" />
+      <workItem from="1618596666825" duration="1215000" />
+      <workItem from="1618844458353" duration="25000" />
+      <workItem from="1618847824654" duration="85000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: add map on zoogeography block">
+      <created>1617031984498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617031984498</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add header and aside in map.html">
+      <created>1617118091299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617118091300</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/gh-pages" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="feat: add map on zoogeography block" />
+    <MESSAGE value="feat: add header and aside in map.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add header and aside in map.html" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
