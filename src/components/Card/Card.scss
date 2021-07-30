@@ -1,104 +1,86 @@
-.card {
-  position: relative;
-  min-width: 275px;
-  height: auto;
-  margin: 30px;
-  flex: 0 0 20%;
-  margin-left: 0;
-  cursor: pointer;
+.card-container {
+  margin: 1%;
+  flex: 1 0 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   perspective: 25rem;
+  cursor: pointer;
 
-  transition: all 0.4s linear;
-  transform-style: preserve-3d;
-  transform-origin: right;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
-  border: none;
-}
-
-.card:hover {
-  transform: translateZ(2rem);
-  box-shadow: 0 0.5rem 1rem black;
-}
-
-.card.flipped {
-  transform: rotateY(180deg) translateX(-100%);
-  transform-origin: left;
-
-  .card__back {
-    display: block;
+  &:hover > .card {
+    transform: translateZ(2rem);
+    box-shadow: 0 0.5rem 1rem black;
   }
 
-  .card-body {
+  &.flipped > .card {
     transform: rotateY(180deg) translateX(-100%);
     transform-origin: left;
   }
 }
 
-.card-img {
-  object-fit: cover;
-  width: 100%;
-  height: 15rem;
-  border: none;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+.card-container.big {
+  flex: 1 0 15%;
 }
 
-.card-img.active {
-  pointer-events: none;
-  opacity: .5;
+.card.big {
+  width: 8rem;
+  height: 9rem;
 }
 
-.card-body {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.7rem 0.7rem;
-  text-decoration: none;
-  color: #333333;
-}
+.card {
+  position: relative;
+  width: 10rem;
+  height: 11rem;
+  transition: all 0.3s;
+  transform-style: preserve-3d;
+  transform-origin: right;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 
-.card__front,
-.card__back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80%;
-  backface-visibility: hidden;
-  border-radius: inherit;
-  background-position: center;
-  background-size: cover;
-
-  transition: all .4s linear;
-}
-
-.card__front {
-}
-
-.card__back {
-  display: none;
-  transform: rotateY(180deg);
-}
-
-.rotate-icon {
-  width: 30px;
-  height: 30px;
-
-  path {
-    transition: all .1s linear;
-  }
-}
-
-.rotate-icon:hover {
-  path {
-    fill: #34bcec;
-  }
-}
-.card.active {
-  .card__front, .card__back {
+  &__front,
+  &__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
+    backface-visibility: hidden;
+    border-radius: inherit;
+    background-position: center;
+    background-size: cover;
   }
-  .card-body {
-    display: none;
+
+  &__front {
+    background-color: crimson;
+  }
+
+  &__back {
+    background-color: gray;
+    background-image: url(../../assets/card-back.png);
+
+    transform: rotateY(180deg);
+  }
+}
+.card.succsess {
+  .card__color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(71, 255, 126, 0.6);
+    transition: background-color 0.1s linear;
+  }
+}
+.card.failed {
+  .card__color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 71, 71, 0.6);
+    transition: background-color 0.1s linear;
   }
 }

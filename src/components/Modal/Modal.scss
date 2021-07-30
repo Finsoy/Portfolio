@@ -1,31 +1,95 @@
-.modal {
-  position: fixed;
+.modal__wrapper {
+  opacity: 1;
+  position: absolute;
   top: 0;
   left: 0;
-  z-index: 1060;
-  display: block;
   width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  outline: 0;
-  background-color: #fff;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  color: #000;
+  z-index: 10;
+  transition: opacity 0.3s linear;
+}
+.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
-.modal-dialog {
-  max-width: 875px;
-  margin: 14.75rem auto;
+.modal__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 640px;
+  height: 460px;
+  display: block;
+  background-color: #f2f2f2;
+  border-radius: 10px;
 }
 
-.modal-header{
+.modal__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  padding: 20px;
+}
+.form__wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: none;
+  justify-content: space-between;
 }
 
-.modal-content {
+.form__avatar {
+  margin: 25px;
+  background-position: center;
+  background-size: cover;
+  width: 198px;
+  height: 198px;
+  margin-right: 55px;
+}
+.form-add {
+  margin-left: 380px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 10px 15px;
+
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  max-height: 40px;
+  margin-top: 80px;
+  margin-right: 20px;
   border: none;
+  cursor: pointer;
 }
 
+.form-add.active {
+  background: #2196f3;
+  pointer-events: auto;
+}
 
+.form-add.disabled {
+  background: #7b8c98;
+  pointer-events: none;
+}
+.form-cancel {
+  background: #f2f9fe;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 10px 15px;
+
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  max-height: 40px;
+  margin-top: 9px;
+  border: none;
+  cursor: pointer;
+}
