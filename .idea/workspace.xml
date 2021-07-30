@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45b85dff-6907-4df8-bae8-86ae23a41e24" name="Default Changelist" comment="" />
+    <list default="true" id="45b85dff-6907-4df8-bae8-86ae23a41e24" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/photo-filter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/.idea/photo-filter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/assets/img/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/assets/svg/fullscreen-exit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/assets/svg/fullscreen-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/assets/svg/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/assets/svg/rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-filter/style.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="online-zoo" />
+        <entry key="$PROJECT_DIR$" value="photo-filter" />
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="main" />
@@ -41,6 +55,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="virtual-piano" />
+                    <option name="lastUsedInstant" value="1627662966" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="photo-filter" />
                     <option name="lastUsedInstant" value="1627662630" />
                   </RecentBranch>
@@ -55,10 +73,6 @@
                   <RecentBranch>
                     <option name="branchName" value="english-for-kids" />
                     <option name="lastUsedInstant" value="1627662063" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="async-race" />
-                    <option name="lastUsedInstant" value="1627660834" />
                   </RecentBranch>
                 </list>
               </option>
@@ -142,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627662661735</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: add gitignore">
+      <created>1627662849221</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627662849221</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +189,7 @@
     <MESSAGE value="feat: add match-match-game branch" />
     <MESSAGE value="feat: add online-zoo branch" />
     <MESSAGE value="feat: add photo-filter branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add photo-filter branch" />
+    <MESSAGE value="feat: add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add gitignore" />
   </component>
 </project>

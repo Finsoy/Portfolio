@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/piano.ico" rel="shortcut icon" />
+
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+
+    <title>virtual-piano</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header-title">Virtual Piano</h1>
+    </header>
+    <main class="main">
+      <div class="btn-container">
+        <button class="btn btn-notes btn-active">Notes</button>
+        <button class="btn btn-letters">Letters</button>
+      </div>
+      <div class="piano">
+        <div
+          class="piano-key before after"
+          data-letter="d"
+          data-note="c"
+          data-key="KeyD"
+        ></div>
+        <div
+          class="piano-key before after"
+          data-letter="f"
+          data-note="d"
+          data-key="KeyF"
+        ></div>
+        <div
+          class="piano-key before after"
+          data-letter="g"
+          data-note="e"
+          data-key="KeyG"
+        ></div>
+        <div
+          class="piano-key before after"
+          data-letter="h"
+          data-note="f"
+          data-key="KeyH"
+        ></div>
+        <div
+          class="piano-key before after"
+          data-letter="j"
+          data-note="g"
+          data-key="KeyJ"
+        ></div>
+        <div
+          class="piano-key before after"
+          data-letter="k"
+          data-note="a"
+          data-key="KeyK"
+        ></div>
+        <div
+          class="piano-key before after"
+          data-letter="l"
+          data-note="b"
+          data-key="KeyL"
+        ></div>
+        <div class="keys-sharp">
+          <div
+            class="piano-key sharp before after"
+            data-letter="r"
+            data-note="c♯"
+            data-key="KeyR"
+          ></div>
+          <div
+            class="piano-key sharp before after"
+            data-letter="t"
+            data-note="d♯"
+            data-key="KeyT"
+          ></div>
+          <div class="piano-key sharp none"></div>
+          <div
+            class="piano-key sharp before after"
+            data-letter="u"
+            data-note="f♯"
+            data-key="KeyU"
+          ></div>
+          <div
+            class="piano-key sharp before after"
+            data-letter="i"
+            data-note="g♯"
+            data-key="KeyI"
+          ></div>
+          <div
+            class="piano-key sharp before after"
+            data-letter="o"
+            data-note="a♯"
+            data-key="KeyO"
+          ></div>
+        </div>
+      </div>
+
+      <button class="fullscreen openfullscreen"></button>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <a
+          class="github"
+          href="https://github.com/Finsoy"
+          target="_blank"
+          rel="noopener noreferrer"
+          >github</a
+        >
+        <div class="year">
+          2021
+        </div>
+        <a
+          class="rss"
+          href="https://rs.school/js/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="rss-year">'21</span>
+        </a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
