@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-link{
+  text-decoration: none;
+}

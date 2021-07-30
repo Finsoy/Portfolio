@@ -1,0 +1,31 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  outline: 0;
+  background-color: #fff;
+}
+
+.modal-dialog {
+  max-width: 875px;
+  margin: 14.75rem auto;
+}
+
+.modal-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+.modal-content {
+  border: none;
+}
+
+

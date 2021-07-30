@@ -1,0 +1,16 @@
+.startGame-btn {
+  font-size: 36px;
+  width: 16rem;
+  height: 5rem;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.repeat-icon {
+  margin: 20px;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+.repeat-icon:active {
+  transform: rotate(120deg);
+}

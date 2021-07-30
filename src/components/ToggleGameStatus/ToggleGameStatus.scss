@@ -1,0 +1,16 @@
+.toggle {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  background: #00BF9A;
+  border-radius: 25px;
+  margin-top: 35px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.toggle.active {
+  background: #34bcec;
+}
+
+

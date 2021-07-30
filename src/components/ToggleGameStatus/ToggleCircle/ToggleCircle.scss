@@ -1,0 +1,13 @@
+.toggle-circle {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform .2s linear;
+
+}
+
+.toggle-circle.active {
+  transform: translateX(60px);
+}

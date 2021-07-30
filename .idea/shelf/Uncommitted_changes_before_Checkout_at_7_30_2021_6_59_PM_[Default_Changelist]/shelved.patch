@@ -1,0 +1,151 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># finsoy-JSFE2021Q1\r\nPrivate repository for @finsoy\r\n\r\nWildlife - https://rolling-scopes-school.github.io/finsoy-JSFE2021Q1/wildlife\r\n\r\nVirtual-piano - https://rolling-scopes-school.github.io/finsoy-JSFE2021Q1/virtual-piano\r\n\r\nOnline-zoo - https://rolling-scopes-school.github.io/finsoy-JSFE2021Q1/online-zoo/pages/about/about.html\r\n\r\nPhoto-filter - https://rolling-scopes-school.github.io/finsoy-JSFE2021Q1/photo-filter/\r\n\r\nSelf-introduction - https://youtu.be/goL2E6baypc\r\n\r\nMatch-match game - https://finsoy-match-match-game.netlify.app/\r\n\r\nEnglish for kids - https://finsoy-english-for-kids-base.netlify.app/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 02a235eb5013647980a09fae7c668216c8561b4f)
++++ b/README.md	(date 1627660293843)
+@@ -11,6 +11,8 @@
+ 
+ Self-introduction - https://youtu.be/goL2E6baypc
+ 
++Presentation - https://finsoy.github.io/presentation/
++
+ Match-match game - https://finsoy-match-match-game.netlify.app/
+ 
+ English for kids - https://finsoy-english-for-kids-base.netlify.app/
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1627659839930)
++++ b/.idea/workspace.xml	(date 1627659839930)
+@@ -0,0 +1,62 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="cab15e9a-dcf3-4203-81ea-14c0cb6f65f4" name="Default Changelist" comment="" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="photo-filter" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitToolBoxStore">
++    <option name="recentBranches">
++      <RecentBranches>
++        <option name="branchesForRepo">
++          <list>
++            <RecentBranchesForRepo>
++              <option name="branches">
++                <list>
++                  <RecentBranch>
++                    <option name="branchName" value="main" />
++                    <option name="lastUsedInstant" value="1627659739" />
++                  </RecentBranch>
++                  <RecentBranch>
++                    <option name="branchName" value="photo-filter" />
++                    <option name="lastUsedInstant" value="1627659706" />
++                  </RecentBranch>
++                </list>
++              </option>
++              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
++            </RecentBranchesForRepo>
++          </list>
++        </option>
++      </RecentBranches>
++    </option>
++  </component>
++  <component name="ProjectId" id="1w2bVAAQJCYvFs2nu4NS3JuX0L1" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/finsoy-JSFE2021Q1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/finsoy-JSFE2021Q1.iml b/.idea/finsoy-JSFE2021Q1.iml
+new file mode 100644
+--- /dev/null	(date 1627659666281)
++++ b/.idea/finsoy-JSFE2021Q1.iml	(date 1627659666281)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1627659666323)
++++ b/.idea/modules.xml	(date 1627659666323)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/finsoy-JSFE2021Q1.iml" filepath="$PROJECT_DIR$/.idea/finsoy-JSFE2021Q1.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1627659666365)
++++ b/.idea/vcs.xml	(date 1627659666365)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
