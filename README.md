@@ -1,5 +1,7 @@
 # Portfolio
 
+PINKTADA (booking app) - https://dev-pnktada.herokuapp.com/
+
 Wildlife - https://rolling-scopes-school.github.io/finsoy-JSFE2021Q1/wildlife
 
 Virtual-piano - https://rolling-scopes-school.github.io/finsoy-JSFE2021Q1/virtual-piano
