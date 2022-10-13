@@ -2,6 +2,8 @@
 
 PINKTADA (booking app) - https://dev-pnktada.herokuapp.com/
 
+Crypto-wallet - https://etacar-test-react.netlify.app/
+
 Wildlife - https://rolling-scopes-school.github.io/finsoy-JSFE2021Q1/wildlife
 
 Virtual-piano - https://rolling-scopes-school.github.io/finsoy-JSFE2021Q1/virtual-piano
